@@ -1,0 +1,135 @@
+{"frames": {
+
+"viruus_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":224,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":224,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0002.png":
+{
+	"frame": {"x":227,"y":1,"w":224,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":224,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0003.png":
+{
+	"frame": {"x":453,"y":1,"w":224,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":224,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0004.png":
+{
+	"frame": {"x":905,"y":1,"w":223,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":223,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0005.png":
+{
+	"frame": {"x":1130,"y":1,"w":223,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":223,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0006.png":
+{
+	"frame": {"x":1355,"y":1,"w":223,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":223,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0007.png":
+{
+	"frame": {"x":1,"y":235,"w":223,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":223,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0008.png":
+{
+	"frame": {"x":226,"y":235,"w":223,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":223,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0009.png":
+{
+	"frame": {"x":451,"y":235,"w":223,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":223,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0010.png":
+{
+	"frame": {"x":676,"y":235,"w":222,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0011.png":
+{
+	"frame": {"x":900,"y":235,"w":222,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0012.png":
+{
+	"frame": {"x":1124,"y":235,"w":222,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0013.png":
+{
+	"frame": {"x":1348,"y":235,"w":222,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0014.png":
+{
+	"frame": {"x":1572,"y":235,"w":222,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":232},
+	"sourceSize": {"w":231,"h":232}
+},
+"viruus_0015.png":
+{
+	"frame": {"x":679,"y":1,"w":224,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":224,"h":232},
+	"sourceSize": {"w":231,"h":232}
+}},
+"animations": {
+	"viruus": ["viruus_0001.png","viruus_0002.png","viruus_0003.png","viruus_0004.png","viruus_0005.png","viruus_0006.png","viruus_0007.png","viruus_0008.png","viruus_0009.png","viruus_0010.png","viruus_0011.png","viruus_0012.png","viruus_0013.png","viruus_0014.png","viruus_0015.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "virus.png",
+	"format": "RGBA8888",
+	"size": {"w":1795,"h":468},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9e46be2c5056720dfcf64246d39db55b:60f5a61ccaa5f533e4aa504f8c544ec5:f74f4c97ee317a37ce4c989b2dfd3b2a$"
+}
+}

@@ -1,0 +1,622 @@
+{
+    "skeleton": {
+        "hash": "Cp5UXqgBQB4UjUytmn48CC4sg40",
+        "spine": "3.8.99",
+        "x": -87.18,
+        "y": -0.86,
+        "width": 160.98,
+        "height": 165.76,
+        "images": "./images-alien-boss/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "root-bone",
+            "parent": "root",
+            "length": 226.5,
+            "rotation": 2.27,
+            "x": -92.8,
+            "y": -57.82
+        },
+        {
+            "name": "head-bone",
+            "parent": "root-bone",
+            "length": 55.86,
+            "rotation": 87.18,
+            "x": 94.68,
+            "y": 95.08
+        },
+        {
+            "name": "body-bone",
+            "parent": "root-bone",
+            "length": 29.26,
+            "rotation": 87.73,
+            "x": 96.58,
+            "y": 65.72
+        },
+        {
+            "name": "leftarm-bone",
+            "parent": "root-bone",
+            "length": 21.97,
+            "rotation": -155.37,
+            "x": 124.05,
+            "y": 90.49
+        },
+        {
+            "name": "armright-bone",
+            "parent": "root-bone",
+            "length": 21.38,
+            "rotation": 158.33,
+            "x": 82.73,
+            "y": 87.76
+        },
+        {
+            "name": "legleft-bone",
+            "parent": "root-bone",
+            "length": 19.21,
+            "rotation": -53.87,
+            "x": 103.15,
+            "y": 72.17
+        },
+        {
+            "name": "legright-bone",
+            "parent": "root-bone",
+            "length": 16.9,
+            "rotation": -128.49,
+            "x": 86.61,
+            "y": 74.93
+        },
+        {
+            "name": "sword-alone-bone",
+            "parent": "root-bone",
+            "length": 129.91,
+            "rotation": 67.65,
+            "x": 15.02,
+            "y": 102
+        }
+    ],
+    "slots": [
+        {
+            "name": "rightleg",
+            "bone": "legright-bone",
+            "attachment": "rightleg"
+        },
+        {
+            "name": "sword",
+            "bone": "armright-bone",
+            "attachment": "armright"
+        },
+        {
+            "name": "body",
+            "bone": "body-bone",
+            "attachment": "body"
+        },
+        {
+            "name": "leftleg",
+            "bone": "legleft-bone",
+            "attachment": "leftleg"
+        },
+        {
+            "name": "head",
+            "bone": "head-bone",
+            "attachment": "head-hurt"
+        },
+        {
+            "name": "armleft",
+            "bone": "leftarm-bone",
+            "attachment": "armleft"
+        },
+        {
+            "name": "sword-alone",
+            "bone": "sword-alone-bone",
+            "attachment": "sword-alone"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "armleft": {
+                    "armleft": {
+                        "x": 11.18,
+                        "y": 0.46,
+                        "rotation": 153.1,
+                        "width": 24,
+                        "height": 18
+                    }
+                },
+                "body": {
+                    "body": {
+                        "x": 21.12,
+                        "y": -2.36,
+                        "rotation": -90,
+                        "width": 47,
+                        "height": 47
+                    }
+                },
+                "head": {
+                    "head": {
+                        "x": 32.39,
+                        "y": -16.32,
+                        "rotation": -97.63,
+                        "width": 112,
+                        "height": 81
+                    },
+                    "head-attack": {
+                        "x": 36.73,
+                        "y": -13.06,
+                        "rotation": -108.16,
+                        "width": 112,
+                        "height": 81
+                    },
+                    "head-hurt": {
+                        "x": 37.34,
+                        "y": -11.62,
+                        "rotation": -102.69,
+                        "width": 112,
+                        "height": 81
+                    }
+                },
+                "leftleg": {
+                    "leftleg": {
+                        "x": 10.86,
+                        "y": 1.23,
+                        "rotation": 51.6,
+                        "width": 25,
+                        "height": 23
+                    }
+                },
+                "rightleg": {
+                    "rightleg": {
+                        "x": 9.62,
+                        "y": 0.76,
+                        "rotation": 126.22,
+                        "width": 23,
+                        "height": 23
+                    }
+                },
+                "sword": {
+                    "armright": {
+                        "x": 10.35,
+                        "y": -3.73,
+                        "rotation": -160.6,
+                        "width": 23,
+                        "height": 17
+                    },
+                    "sword": {
+                        "x": 14.08,
+                        "y": -54.85,
+                        "rotation": -160.6,
+                        "width": 56,
+                        "height": 121
+                    }
+                },
+                "sword-alone": {
+                    "sword-alone": {
+                        "x": 63.5,
+                        "y": 0.17,
+                        "rotation": -69.92,
+                        "width": 54,
+                        "height": 121
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "attack": {
+            "slots": {
+                "head": {
+                    "attachment": [
+                        {
+                            "name": "head-attack"
+                        }
+                    ]
+                },
+                "sword": {
+                    "attachment": [
+                        {
+                            "name": "sword"
+                        }
+                    ]
+                },
+                "sword-alone": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "armright-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "angle": -46.09
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 82.08
+                        }
+                    ]
+                },
+                "head-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "angle": -11.32
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 23.68
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "y": -4.06
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 7,
+                            "y": -4.81
+                        }
+                    ]
+                },
+                "leftarm-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.3333,
+                            "angle": 151.31
+                        }
+                    ],
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.3333,
+                            "x": -8.47,
+                            "y": -1.07
+                        }
+                    ]
+                },
+                "legright-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "angle": -39
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "legleft-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "angle": -53.21
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "body-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "angle": 14.22
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            }
+        },
+        "die": {
+            "bones": {
+                "head-bone": {
+                    "rotate": [
+                        {
+                            "angle": -28.6
+                        }
+                    ]
+                },
+                "armright-bone": {
+                    "translate": [
+                        {
+                            "x": -3.41,
+                            "y": 16.3
+                        }
+                    ]
+                },
+                "leftarm-bone": {
+                    "rotate": [
+                        {
+                            "angle": 142.9
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -17.99,
+                            "y": -9.01
+                        }
+                    ]
+                },
+                "legright-bone": {
+                    "rotate": [
+                        {
+                            "angle": -59.67
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -12.44,
+                            "y": 14.6
+                        }
+                    ]
+                },
+                "body-bone": {
+                    "rotate": [
+                        {
+                            "angle": -55.25
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -23.22,
+                            "y": 16.85
+                        }
+                    ]
+                },
+                "sword-alone-bone": {
+                    "translate": [
+                        {
+                            "x": 36.22,
+                            "y": 33.18
+                        }
+                    ]
+                },
+                "legleft-bone": {
+                    "translate": [
+                        {
+                            "x": -11.2,
+                            "y": 4.78
+                        }
+                    ]
+                }
+            }
+        },
+        "hurt": {
+            "bones": {
+                "head-bone": {
+                    "rotate": [
+                        {
+                            "angle": -28.6
+                        }
+                    ]
+                },
+                "sword-alone-bone": {
+                    "rotate": [
+                        {
+                            "angle": 2.91
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 20.95,
+                            "y": 18.04
+                        }
+                    ]
+                },
+                "body-bone": {
+                    "rotate": [
+                        {
+                            "angle": -45.7
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -22.73,
+                            "y": 18.45
+                        }
+                    ]
+                },
+                "armright-bone": {
+                    "translate": [
+                        {
+                            "x": -1.87,
+                            "y": 21.23
+                        }
+                    ]
+                },
+                "leftarm-bone": {
+                    "rotate": [
+                        {
+                            "angle": 148.48
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -21.38,
+                            "y": -5.66
+                        }
+                    ]
+                },
+                "legright-bone": {
+                    "rotate": [
+                        {
+                            "angle": -38.06
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -12.66,
+                            "y": 22.74
+                        }
+                    ]
+                },
+                "legleft-bone": {
+                    "translate": [
+                        {
+                            "x": -15.9,
+                            "y": 9.31
+                        }
+                    ]
+                }
+            }
+        },
+        "walk": {
+            "slots": {
+                "head": {
+                    "attachment": [
+                        {
+                            "name": "head"
+                        }
+                    ]
+                },
+                "sword": {
+                    "attachment": [
+                        {
+                            "name": "sword"
+                        }
+                    ]
+                },
+                "sword-alone": {
+                    "attachment": [
+                        {
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "head-bone": {
+                    "rotate": [
+                        {
+                            "angle": 4.88
+                        },
+                        {
+                            "time": 0.1667,
+                            "angle": -2.57
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 4.88
+                        }
+                    ],
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "x": -1.6,
+                            "y": -0.98
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "legleft-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "angle": -55.71
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                },
+                "legright-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "angle": 64.11
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": 0.44,
+                            "y": -2.1
+                        }
+                    ]
+                },
+                "leftarm-bone": {
+                    "rotate": [
+                        {
+                            "angle": 110.1
+                        },
+                        {
+                            "time": 0.1667,
+                            "angle": 25.65
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 110.1
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "x": -6.24,
+                            "y": 0.25
+                        }
+                    ]
+                },
+                "armright-bone": {
+                    "rotate": [
+                        {
+                            "angle": 18.41
+                        },
+                        {
+                            "time": 0.1667,
+                            "angle": -3.58
+                        },
+                        {
+                            "time": 0.3333,
+                            "angle": 18.41
+                        }
+                    ]
+                },
+                "body-bone": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "angle": 7.5
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ],
+                    "translate": [
+                        {},
+                        {
+                            "time": 0.1667,
+                            "x": -0.04,
+                            "y": -1.04
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

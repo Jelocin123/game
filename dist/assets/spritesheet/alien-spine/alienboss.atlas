@@ -1,0 +1,76 @@
+
+alienboss.png
+size: 116,423
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armleft
+  rotate: false
+  xy: 51, 6
+  size: 24, 18
+  orig: 24, 18
+  offset: 0, 0
+  index: -1
+armright
+  rotate: false
+  xy: 77, 7
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 257
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+head-attack
+  rotate: false
+  xy: 2, 174
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+head-hurt
+  rotate: false
+  xy: 2, 340
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+leftleg
+  rotate: false
+  xy: 51, 26
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+rightleg
+  rotate: false
+  xy: 78, 26
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+sword
+  rotate: false
+  xy: 2, 51
+  size: 56, 121
+  orig: 56, 121
+  offset: 0, 0
+  index: -1
+sword-alone
+  rotate: false
+  xy: 60, 51
+  size: 54, 121
+  orig: 54, 121
+  offset: 0, 0
+  index: -1
